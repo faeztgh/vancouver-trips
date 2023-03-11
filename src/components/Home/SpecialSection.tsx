@@ -6,8 +6,10 @@ import Paragraph from "../Common/Paragraph";
 const SpecialSection = () => {
     return (
         <section className="flex py-28 gap-10 flex-col justify-center items-center px-10 ">
-            <h1 className="text-6xl my-10 font-rozhaOne">What Makes Us Special</h1>
-            <div className="flex ">
+            <h1 className="text-6xl my-10 font-rozhaOne">
+                What Makes Us Special
+            </h1>
+            <div className="flex flex-col md:flex-row gap-20 md:gap-0">
                 {cardData.map(({ logo, title, desc }) => {
                     return (
                         <div

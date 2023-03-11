@@ -18,12 +18,20 @@ const AboutSection = () => {
                 come along and create lifelong memories with Vancouver Trips -
                 your gateway to the beauty of BC.
             </Paragraph>
-            <Link
-                href="/about"
-                className="p-5 border hover:shadow-sm hover:drop-shadow-sm border-black"
-            >
-                Read More
-            </Link>
+            <div className="flex gap-5">
+                <Link
+                    href="/about"
+                    className="p-5 border hover:shadow-sm hover:drop-shadow-sm border-black"
+                >
+                    Read More
+                </Link>
+                <Link
+                    href="#contact-sec"
+                    className="p-5 border hover:shadow-sm hover:drop-shadow-sm border-black"
+                >
+                    Contact Us
+                </Link>
+            </div>
         </section>
     );
 };

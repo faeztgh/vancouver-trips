@@ -7,11 +7,14 @@ function Testimonial() {
             <h1 className="capitalize text-4xl font-rozhaOne font-semibold">
                 testimonial
             </h1>
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 {testimonialData.map(({ desc, name }) => {
                     return (
-                        <div key={name} className="flex items-center flex-col">
-                            <Paragraph classname="mb-10">{desc}</Paragraph>
+                        <div
+                            key={name}
+                            className="flex items-center flex-col mt-6 md:mt-0 space-x-5 mx-20"
+                        >
+                            <Paragraph classname="md:mb-10">{desc}</Paragraph>
                             <h6>{name}</h6>
                         </div>
                     );

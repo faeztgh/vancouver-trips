@@ -1,9 +1,11 @@
 import ContactSecForm from "../Forms/ContactSecForm";
-import {  List, Typography } from "antd";
+import { List, Typography } from "antd";
 function ContactSection() {
     return (
-        <section className="px-20 py-16 flex flex-col gap-10 items-center text-black font-mo font-medium text-lg">
-                <h1 className="capitalize text-6xl font-semibold font-rozhaOne">Plan Your Adventures With Us</h1>
+        <section id="contact-sec" className="px-20 py-16 flex flex-col gap-10 items-center text-black font-mo font-medium text-lg">
+            <h1 className="capitalize text-6xl font-semibold font-rozhaOne">
+                Plan Your Adventures With Us
+            </h1>
             <div className="flex flex-col items-start text-xl">
                 <p>
                     We would be delighted to assist you in planning your stay in
@@ -13,14 +15,13 @@ function ContactSection() {
                     email with the following details:
                 </p>
                 <List
-                className=""
+                    className=""
                     size="small"
                     dataSource={listData}
                     split={false}
                     renderItem={(item) => (
-                        <List.Item >
-                            <Typography.Text>•</Typography.Text>{" "}
-                            {item}
+                        <List.Item>
+                            <Typography.Text>•</Typography.Text> {item}
                         </List.Item>
                     )}
                 />
@@ -32,7 +33,18 @@ function ContactSection() {
                     one.
                 </p>
             </div>
-            <h5 className="font-semibold text-lg mt-8">info@Vancouvertrips.com | 778-955-9787</h5>
+            <div>
+                <a
+                    href="mailto:info@Vancouvertrips.com"
+                    className="font-semibold text-lg mt-8"
+                >
+                    info@Vancouvertrips.com
+                </a>
+                <a className="mt-0" href="tel:778-955-9787">
+                    {" "}
+                    | 778-955-9787
+                </a>
+            </div>
             <div className="w-full mt-12 flex justify-center items-center">
                 <ContactSecForm />
             </div>

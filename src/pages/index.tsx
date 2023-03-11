@@ -4,17 +4,18 @@ import Home from "@/components/Home/HeroSection";
 import AboutSection from "@/components/Home/AboutSection";
 import SpecialSection from "@/components/Home/SpecialSection";
 import VideoSection from "@/components/Home/VideoSection";
-import Testimonial from "@/components/Home/testimonial";
 import QuoteSec from "@/components/Home/QuoteSec";
 import ContactSection from "@/components/Home/ContactSection";
+import Testimonial from "@/components/Home/Testimonial";
+import Layout from "@/components/layout/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function MyHome() {
+    const title = "Vancouver Trips";
     return (
         <>
             <Head>
-                <title>Vancouver Trips</title>
                 <meta name="description" content="Vancouver Trips" />
                 <meta
                     name="viewport"
@@ -22,15 +23,17 @@ export default function MyHome() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main className={`pb-28 ${inter.className}`}>
-                <Home />
-                <AboutSection />
-                <SpecialSection />
-                <VideoSection />
-                <Testimonial />
-                <QuoteSec />
-                <ContactSection />
-            </main>
+            <Layout title={title}>
+                <main className={`pb-28 ${inter.className}`}>
+                    <Home />
+                    <AboutSection />
+                    <SpecialSection />
+                    <VideoSection />
+                    <Testimonial />
+                    <QuoteSec />
+                    <ContactSection />
+                </main>
+            </Layout>
         </>
     );
 }

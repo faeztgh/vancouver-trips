@@ -1,8 +1,15 @@
+import LoginComponent from "@/components/Auth/Login/Login";
+import Layout from "@/components/layout/Layout";
 
-const index = () => {
-  return (
-    <div>Login</div>
-  )
-}
+const Login = () => {
+    const title = "Login";
+    return (
+        <>
+            <Layout title={title}>
+                <LoginComponent />
+            </Layout>
+        </>
+    );
+};
 
-export default index
+export default Login;
