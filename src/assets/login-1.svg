@@ -1,5 +1,6 @@
 <svg viewbox="0 0 91 91" className="absolute top-0 left-0 z-0 w-32 h-32 -mt-12 -ml-12 text-yellow-300
             fill-current">
+			
 	<g stroke="none" strokewidth="1" fillrule="evenodd">
 		<g fillrule="nonzero">
 			<g>
@@ -86,4 +87,5 @@
 			</g>
 		</g>
 	</g>
+
 </svg>
