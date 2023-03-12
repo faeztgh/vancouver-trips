@@ -12,7 +12,7 @@ type Props = {
 };
 const BookCard = (props: Props) => {
     const { date, duration, img, price, title, slug } = props;
-    console.log(slug);
+   
     return (
         <>
             <div className="flex justify-center mx-4 my-2 ">
