@@ -39,3 +39,6 @@ next.config.js
 next.config.js
 next.config.js
 next.config.js
+
+# Local Netlify folder
+.netlify
