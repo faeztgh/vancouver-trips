@@ -30,6 +30,7 @@ const Footer = () => {
                                         type="button"
                                         href={href}
                                         referrerPolicy="no-referrer"
+                                        key={title}
                                     >
                                         <Icon />
                                     </a>
@@ -46,12 +47,12 @@ const Footer = () => {
                                 <hr className="mb-3 " />
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a
+                                        <link
                                             className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                                             href="/about"
                                         >
                                             About Us
-                                        </a>
+                                        </link>
                                     </li>
                                     <li>
                                         <a
