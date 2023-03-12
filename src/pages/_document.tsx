@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navabar/Navbar";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
@@ -15,6 +14,8 @@ export default function Document() {
                     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Rozha+One&display=swap"
                     rel="stylesheet"
                 />
+
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <body>
                 <Main />

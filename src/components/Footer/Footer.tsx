@@ -47,12 +47,12 @@ const Footer = () => {
                                 <hr className="mb-3 " />
                                 <ul className="list-unstyled">
                                     <li>
-                                        <link
+                                        <Link
                                             className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                                             href="/about"
                                         >
                                             About Us
-                                        </link>
+                                        </Link>
                                     </li>
                                     <li>
                                         <a
