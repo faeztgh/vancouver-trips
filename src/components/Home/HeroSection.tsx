@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import HeroImg from "../../assets/hero-sec.webp";
 const Home = () => {
@@ -17,9 +18,12 @@ const Home = () => {
                 <h5 className="font-montserat font-medium text-lg flex-wrap md:text-2xl">
                     Discover Vancouver and BC through our Unforgettable Journeys
                 </h5>
-                <button className="hover:shadow-lg hover:drop-shadow-md border-white p-5 border-2 ">
+                <Link
+                    href="/book"
+                    className="hover:shadow-lg hover:drop-shadow-md border-white p-5 border-2 "
+                >
                     Book Your Experience
-                </button>
+                </Link>
             </div>
         </section>
     );
