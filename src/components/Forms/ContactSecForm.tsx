@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import { Button, Form, Input } from "antd";
 
 const onFinish = (values: any) => {
-    console.log("Success:", values);
     const { name, email, subject, message } = values;
 };
 
-const onFinishFailed = (errorInfo: any) => {
-    console.log("Failed:", errorInfo);
-};
+const onFinishFailed = (errorInfo: any) => {};
 const ContactSecForm: React.FC = () => (
     <Form
         name="contact"
