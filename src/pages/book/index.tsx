@@ -104,6 +104,15 @@ export const bookData: Array<BookDataType> = [
         `,
     },
     {
+        img: BookCardImg3,
+        detailImg: BookDetail3,
+        title: "Jungle Tour",
+        date: "Mon, Fri",
+        duration: "5",
+        price: "80",
+        desc: "",
+    },
+    {
         img: BookCardImg2,
         detailImg: BookDetail2,
         title: "Waterfall Tour",
@@ -115,7 +124,7 @@ export const bookData: Array<BookDataType> = [
     {
         img: BookCardImg3,
         detailImg: BookDetail3,
-        title: "Wanderer Hike",
+        title: "River Hike",
         date: "Mon, Fri",
         duration: "5",
         price: "80",
@@ -124,7 +133,7 @@ export const bookData: Array<BookDataType> = [
     {
         img: BookCardImg4,
         detailImg: BookDetail1,
-        title: "Wanderer Hike",
+        title: "Sea Hike",
         date: "Mon, Fri",
         duration: "3",
         price: "65",
@@ -136,11 +145,11 @@ const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
-        items: 4,
+        items: 6,
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3,
+        items: 5,
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },

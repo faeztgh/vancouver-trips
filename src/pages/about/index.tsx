@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Layout from "@/components/layout/Layout";
-import Head from "next/head";
 import Image from "next/image";
-import AboutImg from "../../../public/about-img.webp";
+import AboutImg from "../../assets/about-img.webp";
 import Paragraph from "../../components/Common/Paragraph";
 
 const About = () => {

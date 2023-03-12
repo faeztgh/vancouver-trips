@@ -7,6 +7,7 @@ type Props = {
     children: ReactNode;
     title?: string;
     description?: string;
+    className?: string;
 };
 
 const variants = {
@@ -15,7 +16,7 @@ const variants = {
     exit: { opacity: 0, x: 0, y: 0 },
 };
 const Layout = (props: Props) => {
-    const { children, title, description } = props;
+    const { children, title, description, className } = props;
     return (
         <>
             <NextSeo
@@ -32,7 +33,7 @@ const Layout = (props: Props) => {
                 exit="exit"
                 variants={variants}
                 transition={{ type: "tween" }}
-                className=""
+                className={className}
             >
                 {children}
             </motion.main>

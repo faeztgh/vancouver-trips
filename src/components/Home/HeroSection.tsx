@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import HeroImg from "../../../public/hero-sec.webp";
+import HeroImg from "../../assets/hero-sec.webp";
 const Home = () => {
     return (
         <section className="w-full h-full relative">

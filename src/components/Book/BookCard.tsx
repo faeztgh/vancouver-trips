@@ -17,8 +17,8 @@ const BookCard = (props: Props) => {
         <>
             <div className="flex justify-center mx-4 my-2 ">
                 <div className="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
-                    <a
-                        href="#!"
+                    <Link
+                        href={`/book/${slug}`}
                         data-te-ripple-init
                         data-te-ripple-color="light"
                     >
@@ -27,7 +27,7 @@ const BookCard = (props: Props) => {
                             src={img}
                             alt={title}
                         />
-                    </a>
+                    </Link>
                     <div className="p-6 flex flex-col gap-5">
                         <Link
                             href={`/book/${slug}`}
