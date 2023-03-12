@@ -8,7 +8,7 @@ const Home = () => {
             <Image
                 src={HeroImg}
                 alt="Hero Image"
-                className="blur-sm"
+                className="blur-sm w-full"
                 priority
             />
             <div className="absolute flex gap-12 drop-shadow-lg text-white flex-col justify-center items-center inset-0">
