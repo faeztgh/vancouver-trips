@@ -15,6 +15,7 @@ const ForgotPasswordComponent = () => {
                                     className="drop-shadow shadow-lg rounded"
                                     src={ForgotPasswordImg}
                                     alt="nature picture"
+                                    placeholder="blur"
                                 />
                             </div>
                         </div>

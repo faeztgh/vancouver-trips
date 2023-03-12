@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import SignupImg from "../../../assets/signup-img.jpg";
 
 const Signup = () => {
@@ -11,10 +10,11 @@ const Signup = () => {
                         <div className="w-full bg-cover relative max-w-md lg:max-w-2xl lg:w-7/12">
                             <div className="flex flex-col items-center justify-center w-full h-full relative lg:pr-10">
                                 <Image
-                                    priority
+                                    
                                     className="drop-shadow shadow-lg rounded"
                                     src={SignupImg}
-                                    alt=""
+                                    alt="nature picture"
+                                    placeholder="blur"
                                 />
                             </div>
                         </div>
