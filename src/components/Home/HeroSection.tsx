@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <section className="w-full h-full relative">
             <Image
-                layout="responsive"
                 src={HeroImg}
                 alt="Hero Image"
                 className="blur-sm"

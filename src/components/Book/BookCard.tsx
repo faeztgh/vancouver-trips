@@ -19,11 +19,10 @@ const BookCard = (props: Props) => {
                 <div className="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                     <Link
                         href={`/book/${slug}`}
-                        data-te-ripple-init
-                        data-te-ripple-color="light"
+                      className="max-h-64"
                     >
                         <Image
-                            className="rounded-t-lg max-h-64"
+                            className="rounded-t-lg h-48"
                             src={img}
                             alt={title}
                         />

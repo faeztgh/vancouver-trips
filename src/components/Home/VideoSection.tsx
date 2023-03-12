@@ -2,6 +2,8 @@ import Carousel from "react-material-ui-carousel";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Player } from "video-react";
 import "video-react/dist/video-react.css";
+import Poster from "../../assets/poster.png";
+
 function VideoSection() {
     return (
         <>
@@ -29,15 +31,15 @@ export default VideoSection;
 
 const videoData = [
     {
-        poster: "/assets/poster.png",
+        poster: Poster.src,
         src: "https://media.istockphoto.com/id/1410286476/de/video/luftaufnahmen-%C3%BCber-einer-der-golfinseln-von-british-columbia.mp4?s=mp4-640x640-is&k=20&c=_jyGOswT-pFaIPtnEjzIKWcpPkOrqsnILjoTagowFY4=",
     },
     {
-        poster: "/assets/poster.png",
+        poster: Poster.src,
         src: "https://excite.videvo.net/videvo_files/video/premium/partners0060/large_watermarked/BB_77664d6e-80d5-45a0-9c83-b13de9540cdb_preview.mp4",
     },
     {
-        poster: "/assets/poster.png",
+        poster: Poster.src,
         src: "https://cdn.videvo.net/videvo_files/video/premium/video0323/large_watermarked/629_629-0061_preview.mp4",
     },
 ];

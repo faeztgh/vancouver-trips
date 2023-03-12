@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+html {
     scroll-behavior: smooth !important;
 }
 
@@ -22,3 +22,4 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
     box-shadow: 50px;
 }
+
