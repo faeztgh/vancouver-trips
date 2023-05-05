@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cead4119-6b33-4f34-80c9-20f388138e3e/deploy-status)](https://app.netlify.com/sites/vancouvertrips/deploys)
 
-<hr/>
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
